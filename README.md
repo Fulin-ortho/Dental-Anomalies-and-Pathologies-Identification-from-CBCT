@@ -1,7 +1,11 @@
 # Deep learning-based dental anomalies and pathologies identification for orthodontic treatment
 by Fulin Jiang, Shihao Li, Jialing Liu, Wen Liao, Zhihe Zhao, Fangyuan Cheng, Guangsheng dai, Juan Li
 
+## Introduction
+This repository is for our paper 'Deep learning-based dental anomalies and pathologies identification for orthodontic treatment'.
 
+## Release
+The training, data preparation and testing codes have been released.
 
 ## Inference
 
