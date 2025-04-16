@@ -14,8 +14,5 @@ Run the model:  run_test.py.
 
 ## AI inference application
 
-Owing to data privacy considerations and ethical constraints, the datasets and trained model weights cannot be made publicly available. To enable more extensive scientific research and practical applications, we offer an API - based inference solution.
-
-To utilize this solution, users can employ Postman to access the URL http://test.zbeiyun.com:59997/cbct/seg. Here, they need to upload a CBCT zip 'file'. Once uploaded, the resulting outputs can be easily processed and downloaded. Subsequently, these outputs can be further utilized with medical imaging software like ITK - SNAP (accessible at https://www.itksnap.org/pmwiki/pmwiki.php).
-
-In addition, a preliminary commercial version of the segmentation service is accessible online at https://www.aortho360.com. For validation or testing requirements, the authors are willing to provide temporary user accounts. Interested parties can request these accounts by contacting Fulin Jiang at jfl@cqu.edu.cn.
+Due to data privacy considerations and ethical constraints, we are unable to publicly release the original datasets or the trained model weights. To facilitate further scientific research and clinical application, we have developed an API-based inference solution. Users can upload a CBCT DICOM archive (in zip format) using tools such as Postman to the endpoint at http://test.zbeiyun.com:59997/cbct/seg. Once the file is processed, the segmentation outputs can be easily downloaded and subsequently analyzed using dedicated medical imaging software such as ITK-SNAP (https://www.itksnap.org/pmwiki/pmwiki.php).
+Furthermore, a preliminary commercial version of our segmentation service is available at https://www.aortho360.com. For purposes of validation or testing, we are prepared to provide temporary user accounts upon request. Interested parties are invited to contact Fulin Jiang at jfl@cqu.edu.cn for further access and instructions.
