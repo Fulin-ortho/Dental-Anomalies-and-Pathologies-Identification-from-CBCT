@@ -5,7 +5,7 @@ by Juan Li et al.
 This repository is for our paper 'Dental anomalies and pathologies identification for orthodontic treatment: an artificial intelligence-based study'.
 
 ## Release
-The training, data preparation and testing codes have been released.
+The training, data preparation and testing codes have been released. 
 
 ## Inference
 
@@ -14,4 +14,8 @@ Run the model:  run_test.py.
 
 ## AI inference application
 
-Due to data privacy considerations, datasets are not available publicly but can be obtained upon reasonable request. For researchers interested in applying our segmentation system to their own CBCT data, we offer an AI inference service. To utilize this service, please complete the AI inference application form available at the following link: https://drive.google.com/file/d/1xzFugXfz_coKepT_2PrGH5OwtR6mbUGX/view?usp=sharing and submit it to Fulin Jiang at jfl@cqu.edu.cn. Upon receipt of the completed application form, we will provide a data upload link and deliver the segmentation results within two weeks. This approach ensures that our system can be effectively utilized in various clinical settings while maintaining the integrity and confidentiality of the data.
+Owing to data privacy considerations and ethical constraints, the datasets and trained model weights cannot be made publicly available. To enable more extensive scientific research and practical applications, we offer an API - based inference solution.
+
+To utilize this solution, users can employ Postman to access the URL http://test.zbeiyun.com:59997/cbct/seg. Here, they need to upload a CBCT zip 'file'. Once uploaded, the resulting outputs can be easily processed and downloaded. Subsequently, these outputs can be further utilized with medical imaging software like ITK - SNAP (accessible at https://www.itksnap.org/pmwiki/pmwiki.php).
+
+In addition, a preliminary commercial version of the segmentation service is accessible online at https://www.aortho360.com. For validation or testing requirements, the authors are willing to provide temporary user accounts. Interested parties can request these accounts by contacting Fulin Jiang at jfl@cqu.edu.cn.
