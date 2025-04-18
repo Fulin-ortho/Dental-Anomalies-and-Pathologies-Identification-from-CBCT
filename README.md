@@ -20,7 +20,6 @@ Users can upload a CBCT DICOM archive (in zip format) using tools such as Postma
 
 Furthermore, a preliminary commercial version of our segmentation service is available at https://www.aortho360.com. For purposes of validation or testing, we are prepared to provide temporary user accounts upon request. Interested parties are invited to contact Fulin Jiang at jfl@cqu.edu.cn for further access and instructions.
 
-## API
 # 接口文档：`/cbct/seg`
 
 ## 接口描述
